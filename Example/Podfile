@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MVOnboarding_Example' do
+  pod 'MVOnboarding', :path => '../'
+
+  target 'MVOnboarding_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
