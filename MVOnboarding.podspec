@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint MVOnboarding.podspec' to ensure this is a
+# Be sure to run `pod lib lint AwesomeData.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MVOnboarding'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MVOnboarding.'
+s.name             = 'MVOnboarding'
+s.version          = '0.1.0'
+s.summary          = 'Onboarding pages.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+Onboarding easy configurable for any app.
+DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/MVOnboarding'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Evandro Harrison Hoffmann' => 'ehh85@yahoo.com.br' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MVOnboarding.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/eharrison/MVOnboarding'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Evandro Hoffmann' => 'evandro@itsdayoff.com' }
+s.source           = { :git => 'https://github.com/eharrison/MVOnboarding.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MVOnboarding/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MVOnboarding' => ['MVOnboarding/Assets/*.png']
-  # }
+s.source_files = 'MVOnboarding/Classes/**/*.{swift}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'AwesomeData' => ['MVOnboarding/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+s.frameworks = 'UIKit'
+
 end

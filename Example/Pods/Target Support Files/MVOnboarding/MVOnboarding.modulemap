@@ -1,0 +1,6 @@
+framework module MVOnboarding {
+  umbrella header "MVOnboarding-umbrella.h"
+
+  export *
+  module * { export * }
+}
