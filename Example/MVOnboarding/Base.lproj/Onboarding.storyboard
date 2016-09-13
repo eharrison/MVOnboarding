@@ -84,6 +84,12 @@ level up today</string>
                                             <constraint firstItem="gXI-oP-cvG" firstAttribute="top" secondItem="vSd-hc-LrW" secondAttribute="top" id="hmZ-Vo-nyS"/>
                                             <constraint firstAttribute="bottom" secondItem="gXI-oP-cvG" secondAttribute="bottom" id="jF0-qx-MqL"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="videoName" value="1.mp4"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="videoWidthMultiplier">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="backgroundImage" destination="r7Z-uI-40v" id="p8U-lx-zLu"/>
                                             <outlet property="descriptionTable" destination="6oi-Go-iBx" id="MM1-tg-LM7"/>
@@ -160,6 +166,9 @@ of tasks everyday</string>
                                             <constraint firstItem="bnb-BU-AZy" firstAttribute="leading" secondItem="Rxw-6r-rgE" secondAttribute="leading" id="m2W-GC-Eiv"/>
                                             <constraint firstItem="bnb-BU-AZy" firstAttribute="top" secondItem="Rxw-6r-rgE" secondAttribute="top" id="nE0-Ms-y9e"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="videoName" value="1.mp4"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="backgroundImage" destination="bnb-BU-AZy" id="eyC-Qk-5Hm"/>
                                             <outlet property="descriptionTable" destination="EcZ-A8-TS3" id="gl3-9z-OM6"/>
@@ -257,6 +266,9 @@ through the same challenge</string>
                                             <constraint firstItem="jCb-3o-5AN" firstAttribute="leading" secondItem="bgF-YL-pCK" secondAttribute="leading" id="rdH-be-mcv"/>
                                             <constraint firstAttribute="trailing" secondItem="ec3-Z0-00k" secondAttribute="trailing" id="uOM-Jq-2Dc"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="videoName" value="1.mp4"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="backgroundImage" destination="ec3-Z0-00k" id="pyt-LU-Ted"/>
                                             <outlet property="descriptionTable" destination="YeP-mp-IYn" id="OcZ-Ts-SAX"/>

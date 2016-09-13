@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A0AE2B71D82A67D0044151A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0AE2B51D82A67D0044151A /* Onboarding.storyboard */; };
 		0A0AE2BA1D82A6BF0044151A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AE2B91D82A6BF0044151A /* OnboardingViewController.swift */; };
+		0A5237DF1D87AD1500442DFA /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A5237DE1D87AD1500442DFA /* 1.mp4 */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		0A0AE2B61D82A67D0044151A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
 		0A0AE2B91D82A6BF0044151A /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		0A5237DE1D87AD1500442DFA /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		10B9B38170F8AEE54AF47480 /* Pods-MVOnboarding_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVOnboarding_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVOnboarding_Example/Pods-MVOnboarding_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5E79CEF20C84480CA1FB2221 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MVOnboarding_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVOnboarding_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				0A0AE2BB1D82A6C30044151A /* Views */,
 				0A0AE2B81D82A6870044151A /* Storyboards */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				0A5237DE1D87AD1500442DFA /* 1.mp4 */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for MVOnboarding";
@@ -237,10 +240,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 496E7TU5N4;
 						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 496E7TU5N4;
 						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -272,6 +277,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0A5237DF1D87AD1500442DFA /* 1.mp4 in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				0A0AE2B71D82A67D0044151A /* Onboarding.storyboard in Resources */,
 			);
@@ -523,6 +529,7 @@
 			baseConfigurationReference = DAFD7683743FCC3D7AA95BCE /* Pods-MVOnboarding_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 496E7TU5N4;
 				INFOPLIST_FILE = MVOnboarding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -537,6 +544,7 @@
 			baseConfigurationReference = 10B9B38170F8AEE54AF47480 /* Pods-MVOnboarding_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 496E7TU5N4;
 				INFOPLIST_FILE = MVOnboarding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -550,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1EF0656033B17B7D56DEA8D /* Pods-MVOnboarding_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 496E7TU5N4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -570,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 638460987C141E5C53FBA936 /* Pods-MVOnboarding_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 496E7TU5N4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

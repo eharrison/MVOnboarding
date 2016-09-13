@@ -31,7 +31,9 @@ open class MVOnboardingViewModel: NSObject {
     
     open func cell(_ collectionView: UICollectionView, indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifiers[(indexPath as NSIndexPath).row], for: indexPath) as! MVOnboardingCollectionViewCell
-            
+        
+        cell.addsBackgroundVideoIfAny()
+        
         return cell
     }
 }
