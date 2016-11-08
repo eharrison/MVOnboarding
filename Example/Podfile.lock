@@ -1,5 +1,5 @@
 PODS:
-  - MVOnboarding (0.1.0)
+  - MVOnboarding (0.1.6)
 
 DEPENDENCIES:
   - MVOnboarding (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MVOnboarding: b81bc01d84ab830951b7d67b83e63523e7e20790
+  MVOnboarding: 3ba5f7cc75d30f5f83c9ac2257352c3c668bc079
 
-PODFILE CHECKSUM: 1a72eab5701cc58dcf8e7000aab713c6d900c0c1
+PODFILE CHECKSUM: e4d8df5a2d975a1100b5a1c5fee2494dda3614e1
 
 COCOAPODS: 1.0.1

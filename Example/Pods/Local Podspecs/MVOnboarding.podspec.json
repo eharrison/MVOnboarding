@@ -1,22 +1,23 @@
 {
   "name": "MVOnboarding",
-  "version": "0.1.0",
-  "summary": "A short description of MVOnboarding.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MVOnboarding",
+  "version": "0.1.6",
+  "summary": "Onboarding pages.",
+  "description": "Onboarding easy configurable for any app.",
+  "homepage": "https://github.com/iOSWizards/MVOnboarding",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Evandro Harrison Hoffmann": "ehh85@yahoo.com.br"
+    "Evandro Hoffmann": "evandro@itsdayoff.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MVOnboarding.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/iOSWizards/MVOnboarding.git",
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MVOnboarding/Classes/**/*"
+  "source_files": "MVOnboarding/Classes/**/*.{swift}",
+  "frameworks": "UIKit"
 }

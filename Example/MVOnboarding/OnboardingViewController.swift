@@ -13,7 +13,6 @@ class OnboardingViewController: MVOnboardingViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        hidesPagingForLastScreen = true
         setCellIdentifiers(["onboarding1", "onboarding2", "onboarding3"])
     }
 
